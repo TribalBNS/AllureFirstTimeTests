@@ -29,7 +29,7 @@ public class StepsTest {
         step("Открытие репозитория", () -> $(linkText(REPOSITORY)).click());
         step("Открытие вкладки Issues", () -> $("#issues-tab").click());
         step("Проверка наличия Issue под номером " + ISSUE, () -> {
-            $("#issue_" + ISSUE + "_link").should(Condition.exist);
+            $("#issue_" + ISSUE + "_link").shouldBe(Condition.visible);
         });
     }
 

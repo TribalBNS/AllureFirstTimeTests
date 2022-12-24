@@ -4,7 +4,6 @@ import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.Test;
-import org.openqa.selenium.By;
 
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
@@ -25,6 +24,6 @@ public class SelenideTest {
         $(".header-search-input").submit();
         $(linkText("TribalBNS/AllureFirstTimeTests")).click();
         $("#issues-tab").click();
-        $("#issue_" + ISSUE + "_link").should(Condition.exist);
+        $("#issue_" + ISSUE + "_link").shouldBe(Condition.visible);
     }
 }

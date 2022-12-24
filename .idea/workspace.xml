@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="507cc9e7-ab07-4fb6-950c-e77dec6f1580" name="Changes" comment="Changed localhost for selenide remote" />
+    <list default="true" id="507cc9e7-ab07-4fb6-950c-e77dec6f1580" name="Changes" comment="Changed localhost for selenide remote">
+      <change beforePath="$PROJECT_DIR$/src/test/java/qa/guru/allure/SelenideTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/qa/guru/allure/SelenideTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/qa/guru/allure/StepsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/qa/guru/allure/StepsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/qa/guru/allure/WebSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/qa/guru/allure/WebSteps.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,7 +84,7 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.AllureFirstTimeTests [allureServe]">
+  <component name="RunManager" selected="Gradle.SelenideTest.SearchIssueTest">
     <configuration name="AllureFirstTimeTests [allureReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -123,23 +127,25 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="C:/Users/laeda/IdeaProjects/AllureFirstTimeTests/.idea [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SelenideTest.SearchIssueTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/.idea" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="allureServe" />
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;qa.guru.allure.SelenideTest.SearchIssueTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
@@ -192,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SelenideTest.SearchIssueTest" />
         <item itemvalue="Gradle.AllureFirstTimeTests [allureServe]" />
         <item itemvalue="Gradle.StepsTest.annotatedStepTest" />
         <item itemvalue="Gradle.AllureFirstTimeTests [allureReport]" />
         <item itemvalue="Gradle.StepsTest" />
-        <item itemvalue="Gradle.C:/Users/laeda/IdeaProjects/AllureFirstTimeTests/.idea [allureServe]" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671915031889</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Changed localhost for selenide remote">
+      <created>1671915799108</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671915799108</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
