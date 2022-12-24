@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Dec 24 21:16:55 GMT 2022","Sat Dec 24 21:16:58 GMT 2022","2883","","qa.guru.allure.StepsTest","","qa.guru.allure.StepsTest","annotatedStepTest","Проверка наличия Issue №1 в репозитории TribalBNS/AllureFirstTimeTests",""
+"passed","Sat Dec 24 21:16:44 GMT 2022","Sat Dec 24 21:16:52 GMT 2022","8015","","qa.guru.allure.SelenideTest","","qa.guru.allure.SelenideTest","SearchIssueTest","SearchIssueTest()",""
+"passed","Sat Dec 24 21:16:52 GMT 2022","Sat Dec 24 21:16:55 GMT 2022","3244","","qa.guru.allure.StepsTest","","qa.guru.allure.StepsTest","lambdaStepTest","lambdaStepTest()",""
