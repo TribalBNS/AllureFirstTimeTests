@@ -14,7 +14,7 @@ import static qa.guru.allure.TestData.REPOSITORY;
 public class SelenideTest {
 
     @Test
-    public void SearchIssueTest() {
+    public void searchIssueTest() {
         SelenideLogger.addListener("allure", new AllureSelenide());
 
         open("https://github.com/");
